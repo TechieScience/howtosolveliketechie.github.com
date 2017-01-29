@@ -1,46 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-16">
-    <title>TechieScience</title>
-    <meta name="Description" content="Comming soon!!!"/>
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Bigg Data Solutions</title>
+</head>
+<body>
 
-    <meta name="Viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.strokeText("Bigg Data Solutions!!!",10,50);
+ <script>
+document.getElementById("demo").innerHTML = "Techie Science!!!!!!!";
+</script>
 
-    <!-- Loading Bootstrap -->
-    <link href="dist/css/bootstrap/css/.css" rel="stylesheet">
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+ document.getElementById("demo").style.fontSize = "25px";
+document.getElementById("demo").style.color = "Blue";
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
 
-    <!-- Loading Flat UI -->
-    <link href="dist/css/" rel="stylesheet">
-    <link href="docs/assets/css" rel="stylesheet">
+<p> &euro;</p>
 
-    <link rel="shortcut icon" href="img/favicon.ico">
+<form action="action_page.php">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <input type="checkbox" checked="checked"> Remember me
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+<div id="map">My map will go here</div>
 
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="dist/js/vendor/html5shiv.js"></script>
-      <script src="dist/js/vendor/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-	<script>  
-
-
-    </script>
-  </body>
-</html>
-
+</body>
+</html> 
