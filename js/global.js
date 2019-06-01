@@ -15,7 +15,7 @@ function initialize() {
   var mapOptions = {
     zoom: 14,
     center: new google.maps.LatLng(18.467541000000004, 73.8137978),
-    scrollwheel: false,
+    scrollwheel: true,
     draggable:true
   };
 
@@ -37,7 +37,7 @@ function calculateCenter() {
 function loadGoogleMap(){
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' + 'callback=initialize';
+  script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true&' + 'callback=initialize';
   document.body.appendChild(script);
 }
 
